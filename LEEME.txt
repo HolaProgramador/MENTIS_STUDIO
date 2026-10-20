@@ -1,0 +1,30 @@
+MENTIS STUDIO — versión HTML autónoma
+
+INICIO RÁPIDO
+1. Extrae el ZIP en una carpeta de tu computadora.
+2. Haz doble clic en index.html. Se abrirá en el navegador.
+3. No requiere Node.js, npm, Python ni conexión a Internet.
+
+DATOS Y PRIVACIDAD
+- Los registros se guardan en localStorage del navegador en este dispositivo.
+- Usa “Copias de seguridad” para exportar un JSON regularmente.
+- Si borras los datos del navegador, podrías perder los registros.
+- Esta versión no cifra los datos. No almacenes información clínica identificable.
+- Adjuntar libros guarda metadatos y nombre del archivo; no incorpora el documento completo como lector.
+
+FUNCIONES IMPLEMENTADAS
+- Inicio y navegación entre módulos.
+- Notas: crear, editar, buscar, favoritos, papelera y exportación TXT/Markdown/HTML.
+- Biblioteca: metadatos, estado de lectura y portada local.
+- Escritorio de escritura: proyectos, capítulos, edición básica, contador y exportación TXT.
+- Calendario mensual con eventos CRUD.
+- Pomodoro configurable con alarma repetitiva y botón explícito para detenerla.
+- Tareas, investigación, favoritos y papelera.
+- Copias de seguridad JSON y restauración.
+- Tema claro/oscuro.
+
+LIMITACIONES CONOCIDAS
+- Es una aplicación web local, no un ejecutable de Windows.
+- La alarma depende de que el navegador y la pestaña sigan abiertos; el sistema puede suspender pestañas en segundo plano.
+- No incluye cifrado, sincronización, recurrencias de calendario, notificaciones nativas, lector PDF/EPUB ni exportación DOCX/PDF.
+- El editor de escritura guarda contenido HTML localmente; la exportación TXT es básica.

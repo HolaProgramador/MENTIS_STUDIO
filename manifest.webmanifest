@@ -1,0 +1,13 @@
+{
+  "name": "MENTIS STUDIO",
+  "short_name": "MENTIS",
+  "description": "Espacio personal de conocimiento, escritura y concentración",
+  "lang": "es",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f4f5f2",
+  "theme_color": "#163d3b",
+  "icons": [{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}

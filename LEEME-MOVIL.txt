@@ -1,0 +1,11 @@
+MENTIS STUDIO — versión adaptada a móviles
+
+ABRIR EN COMPUTADORA:
+Extrae el ZIP y abre index.html.
+
+ABRIR EN CELULAR:
+Para probarlo, puedes transferir la carpeta al teléfono y abrir index.html con un navegador compatible; algunos navegadores móviles restringen archivos locales. La forma recomendada para instalarlo como app y habilitar el funcionamiento sin conexión es publicar esta carpeta en un sitio HTTPS (o usar un servidor local seguro). Luego abre la dirección en Chrome/Edge (Android) o Safari (iPhone) y usa “Añadir a pantalla de inicio”.
+
+La PWA usa manifest.webmanifest, sw.js e icon.svg. El service worker solo se activa bajo HTTPS o localhost, no al abrir file://.
+
+Los datos se guardan en el almacenamiento local del navegador. Haz copias de seguridad desde la aplicación antes de borrar datos del navegador o cambiar de dispositivo. No se cifra la información.
